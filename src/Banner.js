@@ -1,31 +1,3 @@
-// import React, { useEffect, useState } from "react";
-// import "./Banner.css";
-// import axios from "./axios";
-// import requests from "./requests";
-// function Banner() {
-//   const [movie, setMovie] = useState([]);
-//   useEffect(() => {
-//     async function fetchData() {
-//       const request = await axios.get(requests.fetchNetflixOriginals);
-//       console.log(request);
-//       setMovie(
-//         request?.data.results[
-//           Math.floor(Math.random() * requests.data.results.length)
-//         ]
-//       );
-//       return request;
-//     }
-//     fetchData();
-//   }, []);
-//   console.log(movie);
-//   return (
-//     <div>
-//       <h1>Banner</h1>
-//     </div>
-//   );
-// }
-
-// export default Banner;
 import React, { useEffect, useState } from "react";
 import "./Banner.css";
 import axios from "./axios";
